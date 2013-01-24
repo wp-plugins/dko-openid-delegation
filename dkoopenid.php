@@ -3,7 +3,7 @@
  * Plugin Name: DKO OpenID Delegation
  * Plugin URI:  http://davidosomething.com/
  * Description: Adds OpenID delegation link and meta tags to your HTML head
- * Version:     1.0
+ * Version:     1.0.1
  * Author:      David O'Trakoun (@davidosomething)
  * Author URI:  http://davidosomething.com/
  */
@@ -68,9 +68,8 @@ class DKOOpenID {
   public function add_settings_submenu() {
     $menu_title = 'DKO OpenID Delegation';
     $capability = 'manage_options';
-    $menu_slug  = $this->settings_page_menu_slug;
     $function   = array(&$this, 'settings_page_html');
-    add_options_page($this->settings_page_title, $menu_title, $capability, $menu_slug, $function);
+    add_options_page($this->settings_page_title, $menu_title, $capability, $this->settings_page_menu_slug, $function);
   }
 
   public function settings_page_html() {

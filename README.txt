@@ -1,11 +1,11 @@
-=== DKO OpenID Delegation ===
+=== Plugin Name ===
 Contributors: davidosomething
 Donate link: http://davidosomething.com/
 Tags: openid, login, delegate, delegation, myopenid
 Requires at least: 3.0.1
 Tested up to: 3.5
 Stable tag: trunk
-License: GPLv2 or later
+License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Adds link and meta tags for OpenID server delegation to your WP_HEAD.
@@ -40,6 +40,9 @@ OR
 1. The plugin settings page
 
 == Changelog ==
+
+= 1.0.1 =
+* Trivial copy fix, use variables for titles and slugs where they exist
 
 = 1.0 =
 * Initial commit
