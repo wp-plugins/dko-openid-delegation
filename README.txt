@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== DKO OpenID Delegation ===
 Contributors: davidosomething
 Donate link: http://davidosomething.com/
 Tags: openid, login, delegate, delegation, myopenid
