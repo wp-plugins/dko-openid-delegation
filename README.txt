@@ -41,6 +41,9 @@ OR
 
 == Changelog ==
 
+= 1.0.2 =
+* Add settings link on plugins page
+
 = 1.0.1 =
 * Trivial copy fix, use variables for titles and slugs where they exist
 
