@@ -12,6 +12,9 @@ Adds link and meta tags for OpenID server delegation to your WP_HEAD.
 
 == Description ==
 
+Please report issues, fork, etc. from the GitHub repository:
+https://github.com/davidosomething/dko-openid-delegation
+
 This plugin adds the relevant link and meta tags for OpenID server delegation
 to your WP_HEAD. <a href="https://www.myopenid.com/help#own_domain">See this
 MyOpenID page for more information</a>.
@@ -22,9 +25,9 @@ rewrites to fix it.
 
 = Other plugins that do OpenID delegation and their differences =
 
-* @rodrigosprimo [OpenID Delegation](http://wordpress.org/extend/plugins/wordpress-openid-delegation/) - doesn't have the meta X-XRDS-Location tag, but does a cool thing and check if the provider you entered is actually a working OpenID provider.
-* @benatkins [MyOpenID Delegation](http://wordpress.org/extend/plugins/myopenid-delegation/) - limited to MyOpenID as a provider.
-* @alexisabarca [Open ID Delegate](http://wordpress.org/extend/plugins/openid-delegate/) - OpenID v1 only
+* [OpenID Delegation](http://wordpress.org/extend/plugins/wordpress-openid-delegation/) by [rodrigosprimo](http://profiles.wordpress.org/rodrigosprimo/) - doesn't have the meta X-XRDS-Location tag, but does a cool thing and check if the provider you entered is actually a working OpenID provider.
+* [MyOpenID Delegation](http://wordpress.org/extend/plugins/myopenid-delegation/) by [benatkins](http://profiles.wordpress.org/benatkin/) - limited to MyOpenID as a provider.
+* [Open ID Delegate](http://wordpress.org/extend/plugins/openid-delegate/) by [alexisabarca](http://profiles.wordpress.org/alexisabarca/) - OpenID v1 only
 
 == Installation ==
 
@@ -37,7 +40,8 @@ OR
 
 == Frequently Asked Questions ==
 
-None.
+Please report issues, fork, etc. from the GitHub repository:
+https://github.com/davidosomething/dko-openid-delegation
 
 == Screenshots ==
 
