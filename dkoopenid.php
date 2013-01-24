@@ -39,7 +39,18 @@ class DKOOpenID {
     else {
       add_action('admin_init', array(&$this, 'register_settings'));
       add_action('admin_menu', array(&$this, 'add_settings_submenu'));
+
+      $plugin = plugin_basename(__FILE__);
+      add_filter('plugin_action_links_$plugin', array(&$this, 'add_settings_link_to_plugins_page'));
     }
+  }
+
+  public function add_settings_link_to_plugins_page($links) {
+    $page               = basename(__FILE__);
+    $settings_page_href = admin_url('options-general.php?page = ' . $page);
+    $settings_link      = '<a href="' . $settings_page_path . '">Settings</a>';
+    array_unshift($links, $settings_link);
+    return $links;
   }
 
   /**
