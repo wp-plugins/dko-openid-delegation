@@ -35,6 +35,10 @@ OR
 1. Upload the `dkoopenid` folder to your plugins directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
+== Frequently Asked Questions ==
+
+None.
+
 == Screenshots ==
 
 1. The plugin settings page
@@ -49,3 +53,7 @@ OR
 
 = 1.0 =
 * Initial commit
+
+== Upgrade Notice ==
+
+None.
