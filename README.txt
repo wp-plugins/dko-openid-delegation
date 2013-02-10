@@ -49,6 +49,9 @@ https://github.com/davidosomething/dko-openid-delegation
 
 == Changelog ==
 
+= 1.0.3 =
+* Add options menu item on admin_menu hook
+
 = 1.0.2 =
 * Add settings link on plugins page
 
